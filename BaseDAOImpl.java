@@ -1,4 +1,4 @@
-package com.order;
+﻿package com.order;
 
 import java.beans.PropertyDescriptor;
 import java.lang.reflect.Field;
@@ -21,7 +21,7 @@ public abstract class BaseDAOImpl<T> implements IBaseDAO<T> {
 	protected Class<T> clazz;
 	
 	/*
-	 * 使用Java的面向接口编程
+	 * 使用Java的面向接口编程 
 	 */
 	@SuppressWarnings("unchecked")
 	public BaseDAOImpl() {
